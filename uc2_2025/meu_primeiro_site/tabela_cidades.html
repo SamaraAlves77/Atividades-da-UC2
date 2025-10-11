@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Cidades</title>
+    <!--CSS : Estilo de folhas em cascata: estilização/estética da página-->
+    <!--border-collapse:collapse: Bordas ficarem juntas-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <!--codigo | nome do município | data da emancipação | região -->
+    <!-- iniciar tabela -->
+     <table border="1">
+    
+        <!-- colocar cabeçalho da tabela - thead-->
+        <thead>
+            <!-- colocar linha do cabeçalho-->
+            <tr>
+                <!-- colocar ados do cabeçalho-->
+                <th>Código</th>
+                <th>Município</th>
+                <th>Data da Emancipação</th>
+                <th>Região:</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2207702</td>
+                <td id="maior" class="praia"> Parnaíba </td>
+                <td>14/08/1844</td>
+                <td rowspan="4">Nordeste</td>
+            </tr>
+            <tr>
+                <td>2204659</td>
+                <td class="praia">Ilha Grande </td>
+                <td>26/01/1994</td>
+                
+            </tr>
+            <tr>
+                <td>2201919</td>
+                <td>Bom Princípio</td>
+                <td>29/04/1992</td>
+                
+            </tr>
+            <tr>
+                <td>2204659</td>
+                <td class="praia"> Correia</td>
+                <td>26/07/1938</td>
+                
+            </tr>
+        </tbody>
+        <!--Rodapé da tabela tfoot-->
+        <tfoot>
+            <tr>
+                <td colspan="4">Fonte: IBGE</td>
+            </tr>
+        </tfoot>
+        <!---Titulo da tabela caption-->
+        <caption><h3>Municípios do Brasil - Nordeste</h3></caption>
+    </table> 
+</body>
+</html>

@@ -1,0 +1,45 @@
+body{
+    background-color: #fbdf6ed4;
+}
+div#maior{
+    border-top-left-radius: 25%;
+    border-bottom-left-radius: 25%;
+    background: linear-gradient(#cafe10,10%#fff);
+    border-style: solid;
+    padding: 10px;
+}
+#bolo_de_trigo{
+    border-radius: 50%;
+}
+a{
+    text-decoration: none;
+
+}
+a:hover{
+    color:aliceblue;
+    background-color: aqua;
+}
+ul#_links > li{
+    list-style: nome;
+}
+li{
+    list-style: circle;
+}
+table{
+    border: solid 2px;
+    border-collapse: collapse;   
+}
+td{
+    border: solid 2px;
+}
+th{
+    border: solid 2px;
+}
+#maior{
+    background-color: #ec7272;
+    font-family: cursive;
+}
+.praia{
+    border-color: #012fff;
+    color: #d9ff00;
+}
