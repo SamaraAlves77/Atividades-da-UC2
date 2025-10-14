@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    
+}
+html{
+    min-width: 50vw;
+    min-height: 30vh;
+}
+/* muda a forma de exibição do ul do nav*/
+header#header_page{
+    height: 1.3rem;
+    background-color: coral;
+}
+nav#nav_header_top{
+    display: flex;
+    justify-content: end;
+}
+nav#nav_header_top > ul{
+    display: flex;
+    gap: 1rem;
+}
+nav#nav_header_top > ul li{
+    list-style: nome;
+}
+a.nav_menu_top_item{
+    padding: 0.25rem;
+}
+a.nav_menu_top_item{
+    text-decoration: none;
+    color: cadetblue;
+}
+a.nav_menu_top_item:hover{
+    color: brown;
+    background-color: chocolate;
+}
+hr{
+    height: 0.5rem;
+    background-color: cornflowerblue;
+}
+main #div_main_page img{
+    height: 300px;
+}
+main#main_page{
+  min-width: 400px;
+  min-height: 300px;
+  height: calc(100vh - 6rem);
+  background-image: url("/assets/img/gafanhoto.png");
+  background-size: 10rem;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-x: right;
+  background-position-y: bottom;
+  
+}
+div#div_main_page{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90vw ;
+    margin: auto;
+    
+}
