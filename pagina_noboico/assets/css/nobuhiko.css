@@ -1,0 +1,131 @@
+/* Importa fontes */
+@import url("https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Henny+Penny&family=Knewave&family=Leckerli+One&family=Meow+Script&family=Playwrite+VN+Guides&family=Ribeye+Marrow&display=swap");
+/*variéveis*/
+:root{
+    --cor_principal: rgb(46,175,50);
+    --cor_secundaria:#fff;
+    font-size: 20px;
+    font-family: "Ribeye Marrow", serif;
+    --color_principal: #545454;
+    --color_secundaria: #7b8a84;
+    --color_terciaria: #8cbfaf;
+    --color_quartenaria: #ede7d5;
+    --color_quintenaria: #b7cc18;
+}
+/*Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    min-width: 700px;
+    min-height: 400px;
+
+}
+/*cabeçalho*/
+header#header_page{
+    padding-top: 15px;
+}
+
+html{
+    min-width: 50vw;
+    min-height: 30vh;
+}
+/* muda a forma de exibição do ul do nav*/
+header#header_page{
+    padding-top: 0.7rem;
+    height: 2rem;
+    background-color: rgb(46, 175, 50);
+}
+nav#nav_header_top{
+    display: flex;
+    justify-content: end;
+    background-image: url("/assets/img/icons_contato.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: 95%;
+ 
+}
+nav#nav_header_top > ul{
+    display: flex;
+    gap: 2rem;
+    background-image: url("/assets/img/icons_trabalho.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: 38%;
+ 
+}
+nav#nav_header_top > ul li{
+    list-style: nome;
+    background-image: url("/assets/img/icons_trabalho.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: 60%;
+ 
+}
+a.nav_menu_top_item{
+    padding: 0.25rem;
+}
+a.nav_menu_top_item{
+    text-decoration: none;
+    color: cadetblue;
+}
+a.nav_menu_top_item:hover{
+    
+    color: rgb(42, 120, 165);
+    background-color: chocolate;
+}
+hr{
+    height: 0.5rem;
+    background-color: grey;
+}
+main #div_main_page img{
+    height: 300px;
+}
+main#main_page{
+  min-width: 400px;
+  min-height: 300px;
+  height: calc(100vh - 6rem);
+  background-image: url("/assets/img/gafanhoto.png");
+  background-size: 10rem;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+.main_page_sections{
+    height: calc();
+}
+section#div_main_page{
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 6rem);
+    justify-content: space-around;
+    width: 90vw ;
+    margin: auto;
+}
+.playwrite-de-sas-400{
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.licorice-regular{
+    font-family: "Meow Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+#foto_perfil{
+    border-radius: 25px;
+    box-shadow:  5px 2px 5px 2px var(--cor_principal);
+}
+/*Rodapé*/
+footer#footer_page{
+    display: flex;
+    justify-content: center;
+    height: 3rem;
+}
+footer.msg_footer{
+    display: flex;
+}
