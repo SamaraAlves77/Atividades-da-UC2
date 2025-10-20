@@ -70,6 +70,11 @@ a.nav_menu_top_item:hover{
     color: rgb(171, 169, 43);
     background-color: rgb(209, 223, 12);
 }
+a.nav_menu_top_item[href ="#"]:hover{
+    color: rgb(8, 8, 7);
+    background-color: rgb(252, 248, 248);
+
+}
 /*Conteúdo Principal*/
 hr.hr_left_right{
     height: 0.5rem;
@@ -128,4 +133,5 @@ footer#footer_page{
 }
 footer.msg_footer{
     display: flex;
+
 }
