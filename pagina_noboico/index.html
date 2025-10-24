@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nobuhiko</title>
+    <link rel="stylesheet" href="assets/css/nobuhiko.css">
+</head>
+<body>
+    <!--Menu superior da página--> 
+    <header id="header_page">
+        <nav id="nav_header_top">
+            <ul>
+                <li><a class="nav_menu_top_item" href="#div_main_page"><i class="fa-regular fa-house"></i>Página Inicial</a></li>
+                <li><a class="nav_menu_top_item" href="#"><i class="fa-solid fa-sheet-plastic"></i>Artigos</a></li>
+                <li><a class="nav_menu_top_item" href="#">Publicações</a></li>
+                <li><a class="nav_menu_top_item" href="#">Trabalhos</a></li>
+                <li><a class="nav_menu_top_item" href="#">Currículo</a></li>
+                <li><a class="nav_menu_top_item" href="#div_main_contacts"><i class="fa-solid fa-at"></i>Contato</a></li>
+                <li></li>
+            </ul>
+        </nav>
+        <hr class="hr_left_right">
+    </header>
+    <!--Conteúdo principal da página-->
+    <main id="main_page">
+        <section id="div_main_page" class="main_page_sections">
+            <img id="foto_perfil" src="assets/img/foto_perfil.webp" alt="Imagem_perfil">
+            <h1 class="playwrite-de-sas-400">Página Pessoal Nobuiko</h1>
+        </section>
+        <hr class="hr_right_left">
+        <section id="div_main_contacts" class="main_page_sections">
+            <h1 class="playwrite-de-sas-400">Contatos</h1>
+            <form>
+                <label for="input_nome">Nome</label>
+                <input type="text" name="nome" id="input_nome" placeholder="Se nome aqui">
+                <label for="input_mensage">Mensagem</label>
+                <textarea name="texto" id="input_mensage" placeholder="Sua mensagem aqui" ></textarea>
+            <div>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Cancelar">
+            </div>
+            </form>    
+        </section>
+        <hr class="hr_right_left">
+        <section id="articles">
+            <img src="assets/img/arquivo.png" width="25%">
+        </section>
+    </main>
+    <!--Rodapé da página-->
+    <hr class="hr_left_right">
+    <footer id="footer_page">
+        <div class="msg_footer licorice-regular">
+            &reg; Alunos Senac
+        </div>
+    </footer>
+</body>
+<script src="./assets/js/all.js"></script>
+<script src="./assets/js/nobuhiko.js"></script>
+</html>
